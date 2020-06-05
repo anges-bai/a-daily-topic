@@ -29,7 +29,7 @@ public class isHuiwen {
         int count=0;
         for (int i = 0; i <str1.length() ; i++) {
             StringBuilder sb=new StringBuilder(str1);
-            sb.insert(i,str1);
+            sb.insert(i,str2);
             if (isHuiwen(sb.toString())){
                 count++;
             }
